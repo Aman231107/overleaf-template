@@ -1,0 +1,258 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\rule{\linewidth}{2pt}
+\begin{center}
+    {\Huge \scshape \textbf{Aman Kumar Mishra}} \\ \vspace{1pt}
+    Kolkata, West Bengal, India \\ \vspace{2pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-8697756646 ~ \href{mailto:aman.km2001@gmail.com}
+    {\raisebox{-0.2\height}\faEnvelope\ Gmail} ~ 
+    \href{https://www.linkedin.com/in/aman-kumar-mishra-16403626a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app}{\raisebox{-0.2\height}\faLinkedin\ LinkedIn}  ~
+    \href{https://github.com/Aman231107/}{\raisebox{-0.2\height}\faGithub\ GitHub} ~
+     \vspace{-8pt}
+\end{center}
+\rule{\linewidth}{2pt}
+
+% \section{Experiences}
+% \resumeSubHeadingListStart
+ 
+
+%     \resumeSubheading
+%       {Tecware LTD}{April, 2024}
+%       {React Developer}{Website \href{https://hftedge.com/}{\faExternalLinkSquare*}} 
+%       \resumeItemListStart
+%         \resumeItem{ Created a visually appealing and user-friendly landing page that contributed to a \textbf{5per cent increase} in client acquisition.}
+%         \resumeItem{Designed and developed a \textbf{functional login page.} 
+%     Integrated \textbf{user authentication} with backend services.}
+%         \resumeItem{Developed customizable toast notifications for user interactions.
+%         Implemented \textbf{auto-close functionality} for improved user experience.}
+%     \resumeItemListEnd
+%   \resumeSubHeadingListEnd
+% \vspace{-16pt}
+
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Movie Review Website
+          \href{https://github.com/Aman231107/imdb_clone}
+          {\faExternalLinkSquare*}} $|$ \emph{ReactJS}}{June 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a comprehensive movie search application using \textbf{React}, integrating various features such as \textbf{movie search, detail display}, and user interactivity.}
+            \resumeItem{Implemented \textbf{dynamic data fetching} from the \textbf{OMDB API} using custom hooks (useMovieCard), handling \textbf{asynchronous operations} and providing real-time movie information.}
+            \resumeItem{Configured and utilized \textbf{Redux }for \textbf{state management,} including cart and \textbf{wishlist functionality}, to manage global state efficiently and facilitate user interactions.}
+            \resumeItem{Designed a responsive and interactive user interface using\textbf{ Tailwind CSS,} including movie \textbf{cards, search bars, and shopping cart} features, to enhance user experience across devices.}
+             \resumeItem{Developed a \textbf{custom React hook} (useMovieCard) to manage and \textbf{fetch movie data} efficiently, encapsulating the logic for data retrieval and state updates.}
+          \resumeItemListEnd
+          \vspace{-16pt}
+
+      \resumeProjectHeading
+          {\textbf{Weather App
+           \href{https://github.com/Aman231107/Weather-App}
+          {\faExternalLinkSquare*}} $|$ \emph{HTML,CSS,JavaScript}}{Sep 2023}
+          \resumeItemListStart
+            \resumeItem{The app features a\textbf{ search box for city names, a button to trigger the search,} and sections to display weather information including temperature, humidity, wind speed, and an appropriate weather icon.}
+            \resumeItem {The app fetches weather data from the \textbf{OpenWeatherMap API} using a specified API key and city name. The weather information includes temperature, humidity, and wind speed.}
+            \resumeItem{  If the city name is invalid, \textbf{an error message is displayed,} and the weather information is hidden. Valid city names display weather data and appropriate weather icons.}
+            \resumeItem{\textbf{ Depending on the weather conditions retrieved from the API} (e.g., clouds, clear, rain), the app updates the weather icon accordingly.} 
+            \resumeItem{ The app uses JavaScript to handle user input, make API requests, and update the UI with fetched weather data and corresponding icons. The search button triggers the weather check, and results are displayed based on the\textbf{ API response}.}
+             \resumeItem{The app's layout is designed to be user-friendly, with clear sections for input and output, ensuring a good user experience across different devices.}
+               \resumeItem{The app uses \textbf{external CSS} for styling and images for weather icons, enhancing the visual appeal and providing intuitive weather representations based on the current conditions.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+      
+          \vspace{11pt}
+
+    \resumeSubHeadingListEnd
+
+
+  %-----------PROGRAMMING SKILLS-----------
+
+% %------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small Data Structures
+                \item Algorithms Analysis
+                \item Database Management
+                \item Computer Architecture
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+   \resumeSubheading
+      {Netaji Subhash Engineering College}{September 2021 -- June 2025}
+      {Bachelor of Technology in Electronics and Telecommunication Engineering} {Kolkata, West Bengal}
+      \resumeItemListStart
+      \resumeItem{\textbf{Maulana Abul Kalam Azad University of Technology, West Bengal}}
+      \resumeItem{\textbf{GPA:} 8.14/10 (till 5th sem)}
+      \resumeItemListEnd
+
+       \resumeSubheading
+        {The Aryans School}{March 2021}
+      {ISC } { West Bengal}
+          \resumeItemListStart
+      \resumeItem{\textbf{ISC (2018):} 84.55\%}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Holy Christ School}{March 2018}
+      {ICSE } { West Bengal}
+      \resumeItemListStart
+      \resumeItem{\textbf{ICSE (2018):} 76.33\%}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+   \vspace{-16pt}
+
+
+
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: HTML,CSS Javascript, C++, Python } \\
+    \textbf{Libraries}{: ReactJS} \\
+     % \textbf{Frameworks}{: Express,Node }\\
+     \textbf{Database}{: MongoDB,SQL} \\
+    \textbf{Others}{: DSA, DBMS, OOPs (Java), Computer Networks } \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+
+%-----------EXPERIENCE-----------
+
+\end{document}4
